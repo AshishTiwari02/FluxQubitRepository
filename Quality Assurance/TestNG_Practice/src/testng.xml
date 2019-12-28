@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+ 	<suite name="TestNG Suite">	
+		<test name="Test Demo">	
+		
+			<parameter name="url" value="https://www.google.co.in/"/>	
+			<parameter name="searchString" value="Data"/>
+			
+			<classes>	
+					<class name="com.TestLearn.demoTestNG" />	 
+				<!-- 	<class name="com.TestLearn.testNGFeature" />	
+					<class name="com.TestLearn.exceptionTimeOutTest" />
+					<class name="com.TestLearn.invocationCountTest" /> -->
+           	</classes>	
+		</test>	
+  </suite>	
