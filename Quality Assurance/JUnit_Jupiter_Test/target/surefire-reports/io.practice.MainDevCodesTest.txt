@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: io.practice.MainDevCodesTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.039 s <<< FAILURE! - in io.practice.MainDevCodesTest
+testAdd  Time elapsed: 0.031 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Both values are diffrent ==> expected: <6> but was: <7>
+	at io.practice.MainDevCodesTest.testAdd(MainDevCodesTest.java:14)
+
